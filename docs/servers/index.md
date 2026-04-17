@@ -5,7 +5,7 @@ tags:
   - inventory
 ---
 
-# Server Inventory
+# Server Inventory update2
 
 !!! info "Browse Servers"
     Use this page as the landing view for the environment. Pick a server below to open its detail page.
