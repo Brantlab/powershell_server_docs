@@ -10,8 +10,8 @@ This site is designed for nightly-published Windows server inventory generated f
 
 ## Start Here
 
-- Open [Server Overview](servers/index.md) once your first inventory run has generated content
-- Preview the layout now with [Sample Server Page](servers/SAMPLE-SRV01.md)
+- Open [Server Overview](servers/) once your first inventory run has generated content
+- Preview the layout now with [Sample Server Page](servers/SAMPLE-SRV01/)
 
 ## Publishing Notes
 

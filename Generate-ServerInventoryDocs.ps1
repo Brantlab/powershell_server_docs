@@ -653,7 +653,7 @@ function New-IndexMarkdown {
         $freePct = if ($totalDiskGiB -gt 0) { [math]::Round(($freeDiskGiB / $totalDiskGiB) * 100, 1) } else { 0 }
         $patch = Get-LatestPatchText -HotFix $snapshot.LatestHotfix
 
-        $lines += "| [$($snapshot.Name)]($($snapshot.Name).md) | $status | $(ConvertTo-MarkdownSafe $os) | $(ConvertTo-MarkdownSafe $patch) | $freeDiskGiB GiB ($freePct%) |"
+        $lines += "| [$($snapshot.Name)](./$($snapshot.Name)/) | $status | $(ConvertTo-MarkdownSafe $os) | $(ConvertTo-MarkdownSafe $patch) | $freeDiskGiB GiB ($freePct%) |"
     }
 
     return ($lines -join [Environment]::NewLine)

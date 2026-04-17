@@ -7,6 +7,8 @@ tags:
 
 # SAMPLE-SRV01
 
+[Back to Server List](./)
+
 !!! success "Server Status: Online"
     Generated: 2026-04-16 22:15:00 -07:00
     

@@ -35,7 +35,7 @@ plugins:
   - search
 
 nav:
-  - Home: index.md
+  - Home: index
   - Servers:
-      - Overview: servers/index.md
-      - Sample: servers/SAMPLE-SRV01.md
+      - Overview: servers/index
+      - Sample: servers/SAMPLE-SRV01
