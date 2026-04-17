@@ -8,9 +8,9 @@ theme:
   name: material
   features:
     - navigation.instant
-    - navigation.tabs
     - navigation.top
     - navigation.sections
+    - navigation.expand
     - content.code.copy
     - search.suggest
     - search.highlight
@@ -36,7 +36,7 @@ plugins:
   - search
 
 nav:
-  - Home: index
+  - Home: index.md
   - Servers:
-      - Overview: servers/index
-      - Sample: servers/SAMPLE-SRV01
+      - Overview: servers/index.md
+      - Sample: servers/SAMPLE-SRV01.md
