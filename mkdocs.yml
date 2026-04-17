@@ -1,12 +1,13 @@
 site_name: PowerShell Server Docs
 site_description: Nightly-generated Active Directory server inventory published with Material for MkDocs
-site_url: https://example.com/
+site_url: https://brantlab.com/powershell_server_docs/
 repo_name: powershell_server_docs
 repo_url: https://github.com/justinbrant/powershell_server_docs
 
 theme:
   name: material
   features:
+    - navigation.instant
     - navigation.tabs
     - navigation.top
     - navigation.sections
